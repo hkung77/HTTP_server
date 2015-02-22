@@ -26,10 +26,8 @@ import java.lang.String;
 import java.util.concurrent.Semaphore;
 
 //--------------------------------------------------------------
-//  Update Notice:
-//  Server does not perform how a typical 5 pool thread works
-//  Must modify to have 5 consecutive threads awaiting requets
-//
+//  This program uses basic HTTP commands GET, HEAD, POST
+//  and is multi threaded, up to 5 threads. 
 //
 //  Henry Kung  500386346
 //
